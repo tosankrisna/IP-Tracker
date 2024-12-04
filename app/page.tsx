@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Information from "@/components/Information";
 import Input from "@/components/Input";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
         </h1>
         <Input />
       </Hero>
+      <Information />
     </main>
   );
 }
