@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Input from "@/components/Input";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
         <h1 className="text-white text-center text-xl font-bold">
           IP Address Tracker
         </h1>
+        <Input />
       </Hero>
     </main>
   );
