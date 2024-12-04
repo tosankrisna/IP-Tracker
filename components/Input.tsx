@@ -3,7 +3,7 @@ const Input = () => {
     <form className="flex justify-center mt-5 mb-16">
       <input
         type="text"
-        className="h-9 w-2/6 rounded-l-lg text-sm px-2 focus:outline-none text-black"
+        className="h-10 w-2/6 rounded-l-lg text-sm px-2 focus:outline-none text-black"
         placeholder="Search for any IP address or domain"
         required
       />
